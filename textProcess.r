@@ -1,3 +1,5 @@
+grams <- read.csv('finalGrams.csv', stringsAsFactors = FALSE)
+
 textProcess <- function(text){
     if (typeof(text) != 'character'){
         stop('Please input text')
